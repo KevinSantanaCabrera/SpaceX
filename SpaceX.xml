@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trip SYSTEM "SpaceX.dtd"> 
+
+<trip mision="Apollo 14" company="SpaceX">
+    <date>
+        <date_release>
+            <hour_release>20:50</hour_release>
+            <day_release>6</day_release>
+            <month_release>september</month_release>
+        </date_release>
+        <date_return>
+            <hour_return>11:10</hour_return>
+            <day_return>18</day_return>
+            <month_return>November</month_return>
+        </date_return>
+    </date>
+    <nave name="Trapecio">
+        <astronauts>
+            <astronaut>
+                <id>1</id>
+                <name_complete>Raúl Sanchez Morales</name_complete>
+                <nationality>Spanish</nationality>
+                <specialization>Botany</specialization>
+                <rol>maintain oxygen, water and food reserve levels and keep track of that</rol>
+            </astronaut>
+            <astronaut>
+                <id>2</id>
+                <name_complete>Elle Ochoa</name_complete>
+                <nationality>US</nationality>
+                <specialization>Electric engineering</specialization>
+                <rol>In charge of electricity and maintaining the ship in correct functionality,
+                    regarding internet, lights, etc.</rol>
+            </astronaut>
+            <astronaut>
+                <id>3</id>
+                <name_complete>Arnaldo Tamayo Méndez</name_complete>
+                <nationality>Cuban</nationality>
+                <specialization>Space science</specialization>
+                <rol>Leader(everything that is communication with spaceX, gives all the data and
+                    questions, that is, the spokesperson for the team and the person in charge of
+                    managing the ship in case of having to do it manually and give guidelines for
+                    what they have to do during the day)</rol>
+            </astronaut>
+            <astronaut>
+                <id>4</id>
+                <name_complete>Valentina Tereshkova</name_complete>
+                <nationality>Soviet</nationality>
+                <specialization>physics and psychology</specialization>
+                <rol>She is in charge of maintaining order among the astronauts and, since she is a
+                    psychologist, she has sessions with her colleagues to help them.</rol>
+            </astronaut>
+        </astronauts>
+    </nave>
+    <planet name_planet="Júpiter">
+        <distance>590 million kilometers</distance>
+        <atomospheric_conditions>high pressure, strong winds and very cold temperatures</atomospheric_conditions>
+        <gravity_force>24.79 m/s²</gravity_force>
+    </planet>
+</trip>

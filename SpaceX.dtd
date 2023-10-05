@@ -1,0 +1,26 @@
+<!ELEMENT trip (date,nave,planet)>
+<!ATTLIST trip mision CDATA #REQUIRED>
+<!ATTLIST trip company CDATA #REQUIRED>
+<!ELEMENT date (date_release,date_return)>
+<!ELEMENT date_release (hour_release,day_release,month_release)>
+<!ELEMENT hour_release (#PCDATA)>
+<!ELEMENT day_release (#PCDATA)>
+<!ELEMENT month_release (#PCDATA)>
+<!ELEMENT date_return (hour_return,day_return,month_return)>
+<!ELEMENT hour_return (#PCDATA)>
+<!ELEMENT day_return (#PCDATA)>
+<!ELEMENT month_return (#PCDATA)>
+<!ELEMENT nave (astronauts)>
+<!ATTLIST nave name CDATA #REQUIRED>
+<!ELEMENT astronauts (astronaut+)>
+<!ELEMENT astronaut (id,name_complete,nationality,specialization+,rol+)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name_complete (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT specialization (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+<!ELEMENT planet (distance,atomospheric_conditions,gravity_force)>
+<!ATTLIST planet name_planet CDATA #REQUIRED>
+<!ELEMENT distance (#PCDATA)>
+<!ELEMENT atomospheric_conditions (#PCDATA)>
+<!ELEMENT gravity_force (#PCDATA)> 
